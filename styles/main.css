@@ -6,6 +6,16 @@
 /*****************************************************/
 /* Always add your CSS below the reset CSS           */
 /*****************************************************/
+
+:root {
+  --blue: #609ea0;
+  --red: #be0100ff;
+  --grey: #707f90;
+  --black: #000000;
+  --white: #ffffff;
+  --text: #414141ff;
+}
+
 *,
 *::before,
 *::after {
@@ -13,7 +23,7 @@
 }
 
 * {
-  /* margin: 0; */
+  margin: 0;
   /* this an experimental line-height; if it breaks, add line-height: 1.5 to body */
   line-height: calc(1em + 0.5rem);
 }
@@ -28,7 +38,7 @@ body {
   -webkit-font-smoothing: antialiased;
 }
 
-/* img,
+img,
 picture,
 video,
 canvas,
@@ -36,7 +46,7 @@ svg {
   display: block;
   max-width: 100%;
   height: auto;
-} */
+}
 
 input,
 button,
@@ -83,3 +93,31 @@ img[src$="svg"] {
 }
 
 /************ add your CSS here *****************/
+h1 {
+  font-family: "Fjalla One", sans-serif;
+  color: var(--text);
+}
+
+h2 {
+  font-family: "Fjalla One", sans-serif;
+  color: var(--blue);
+}
+
+h3 {
+  font-family: "Fjalla One", sans-serif;
+  color: var(--grey);
+}
+
+h4 {
+  font-family: "Fjalla One", sans-serif;
+  color: var(--red);
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  color: var(--text);
+}
+
+* {
+  background-color: white;
+}
