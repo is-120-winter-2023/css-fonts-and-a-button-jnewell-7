@@ -96,26 +96,44 @@ img[src$="svg"] {
 h1 {
   font-family: "Fjalla One", sans-serif;
   color: var(--text);
+  font-size: 10rem;
+  padding: 1rem
 }
 
 h2 {
   font-family: "Fjalla One", sans-serif;
   color: var(--blue);
+  font-size: 5rem;
+  padding: 1rem;
 }
 
 h3 {
   font-family: "Fjalla One", sans-serif;
   color: var(--grey);
+  font-size: 3.5rem;
+  padding: 1rem;
 }
 
 h4 {
   font-family: "Fjalla One", sans-serif;
   color: var(--red);
+  font-size: 2rem;
+  padding: 1rem;
 }
 
 body {
   font-family: "Montserrat", sans-serif;
   color: var(--text);
+}
+
+a {
+  text-decoration: none;
+  color: var(--red)
+}
+
+a[href]:hover {
+  /* font-size: 1.1rem; */
+  text-decoration: underline;
 }
 
 * {
