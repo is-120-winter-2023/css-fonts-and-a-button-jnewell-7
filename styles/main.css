@@ -93,32 +93,59 @@ img[src$="svg"] {
 }
 
 /************ add your CSS here *****************/
+main {
+  margin: 0 auto;
+  padding: 0 1rem;
+  max-width: 60rem;
+}
+
+p {
+  margin-top: 1.5em;
+  margin-bottom: .5em;
+}
+
+article {
+  margin-top: 1.5em;
+  margin-bottom: 1.5em;
+}
+
+footer {
+  padding: 1rem;
+  background-color: var(--grey);
+  color: white;
+  
+}
+
 h1 {
   font-family: "Fjalla One", sans-serif;
   color: var(--text);
   font-size: 10rem;
-  padding: 1rem
+  padding-top: .4em;
+  padding-bottom: .2em;
 }
 
 h2 {
   font-family: "Fjalla One", sans-serif;
   color: var(--blue);
   font-size: 5rem;
-  padding: 1rem;
+  padding-top: .4em;
+  padding-bottom: .2em;
 }
 
 h3 {
   font-family: "Fjalla One", sans-serif;
   color: var(--grey);
   font-size: 3.5rem;
-  padding: 1rem;
+  padding-top: .4em;
+  padding-bottom: .2em;
 }
 
 h4 {
   font-family: "Fjalla One", sans-serif;
   color: var(--red);
   font-size: 2rem;
-  padding: 1rem;
+  padding-top: .4em;
+  padding-bottom: .2em;
 }
 
 body {
@@ -128,7 +155,7 @@ body {
 
 a {
   text-decoration: none;
-  color: var(--red)
+  color: var(--red);
 }
 
 a[href]:hover {
@@ -136,6 +163,26 @@ a[href]:hover {
   text-decoration: underline;
 }
 
-* {
+/* * {
   background-color: white;
+} */
+
+.button {
+  border: solid 2px black;
+  background-color: white;
+  color: black;
+  padding: .7rem .5rem;
+  border-radius: 5px;
+  text-decoration: none;
+  display: inline-block;
+  font-weight: 600;
+}
+
+a.button:hover {
+  background-color: black;
+  color: white;
+  text-decoration: none;
+  transition-duration: 200ms;
+  cursor: pointer;
+  
 }
