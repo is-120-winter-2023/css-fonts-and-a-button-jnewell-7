@@ -97,6 +97,11 @@ main {
   margin: 0 auto;
   padding: 0 1rem;
   max-width: 60rem;
+  background-color: #f2f2f2ff;
+}
+
+body {
+  background-color: #f2f2f2ff;
 }
 
 p {
